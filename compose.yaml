@@ -1,0 +1,45 @@
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${DB_USER:?set DB_USER in .env}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?set DB_PASSWORD in .env}
+      POSTGRES_DB: ${DB_NAME:?set DB_NAME in .env}
+    volumes:
+      - pgdata:/var/lib/postgresql/data   # named volume: data survives container removal
+    networks:
+      - backend-net                       # no published port: only the backend can reach the DB
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  backend:
+    build: ./backend
+    restart: unless-stopped
+    environment:
+      DB_HOST: db                         # service name = hostname inside the compose network
+      DB_PORT: 5432
+      DB_USER: ${DB_USER}
+      DB_PASSWORD: ${DB_PASSWORD}
+      DB_NAME: ${DB_NAME}
+      JWT_SECRET: ${JWT_SECRET:?set JWT_SECRET in .env}
+      ADMIN_NICK: ${ADMIN_NICK:-admin}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:?set ADMIN_PASSWORD in .env}
+      STARTING_BALANCE: ${STARTING_BALANCE:-1000}
+      APP_PORT: 3000
+    ports:
+      - "${APP_PORT:-3000}:3000"
+    networks:
+      - backend-net
+    depends_on:
+      db:
+        condition: service_healthy        # start the backend only when Postgres accepts connections
+
+networks:
+  backend-net:
+
+volumes:
+  pgdata:

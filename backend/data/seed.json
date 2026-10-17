@@ -1,0 +1,689 @@
+{
+ "rarities": [
+  {
+   "code": "rarity_rare_weapon",
+   "name": "Mil-Spec",
+   "color": "#4b69ff",
+   "tier": 1,
+   "drop_weight": 7992,
+   "base_price": 20
+  },
+  {
+   "code": "rarity_mythical_weapon",
+   "name": "Restricted",
+   "color": "#8847ff",
+   "tier": 2,
+   "drop_weight": 1598,
+   "base_price": 100
+  },
+  {
+   "code": "rarity_legendary_weapon",
+   "name": "Classified",
+   "color": "#d32ce6",
+   "tier": 3,
+   "drop_weight": 320,
+   "base_price": 500
+  },
+  {
+   "code": "rarity_ancient_weapon",
+   "name": "Covert",
+   "color": "#eb4b4b",
+   "tier": 4,
+   "drop_weight": 64,
+   "base_price": 3000
+  }
+ ],
+ "cases": [
+  {
+   "name": "Huntsman Weapon Case",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XsnXwtmkJjSU91dh8bj35VTqVBP4io_frmxY6qr9OqU0cvbKCGTDk7dys7k-S36yzU114GrRmNaoeSmXaVV0WJp0W6dU5Q_KKWwm",
+   "price": 80,
+   "skins": [
+    "skin-bc677a3996cc",
+    "skin-6d203a8fcdb1",
+    "skin-011747eede4b",
+    "skin-b0c960e25016",
+    "skin-c98d2c843b36",
+    "skin-84742fb07c2b",
+    "skin-6649e8ef90bf",
+    "skin-b0409a64842e",
+    "skin-47c5420fd212",
+    "skin-421b4d58b3c3",
+    "skin-7cfcd56e9168",
+    "skin-c928639d51cb",
+    "skin-817e4764952b",
+    "skin-148586fd3375",
+    "skin-196d87753c91",
+    "skin-bc6a17b8b04c",
+    "skin-a503e5d8d0b7",
+    "skin-6fcc0ba62469",
+    "skin-b14c9f234bc5",
+    "skin-e3516262b49a"
+   ]
+  },
+  {
+   "name": "Chroma 2 Case",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XsnXwtmkJjSU91dh8bj35VTqVBP4io_fqmwOuKD2PqI6caDBWDeUkO8uteM9SnDglklw6miEn9j6IHKfblNxA5pxW6dU5UH4LtBe",
+   "price": 80,
+   "skins": [
+    "skin-ea4e27f0cd16",
+    "skin-0789e14af0b1",
+    "skin-7698ea25d00a",
+    "skin-4b8851edb204",
+    "skin-fd5699e808a0",
+    "skin-628ddc6f56d0",
+    "skin-c97e27944006",
+    "skin-fadb57cf0d51",
+    "skin-e2e874d00715",
+    "skin-162f16955942",
+    "skin-b2a5203033ee",
+    "skin-5224ccf55371",
+    "skin-4fa9c490db80",
+    "skin-7b1351c2adba",
+    "skin-bb6ba9602776"
+   ]
+  },
+  {
+   "name": "Revolver Case",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XsnXwtmkJjSU91dh8bj35VTqVBP4io_frHIV7qWvOqE9IqSVWGKVlu8v6eM7Girmxkwl4TnWmIv8J36WagEiCpImQvlK7EclOzxxiQ",
+   "price": 100,
+   "skins": [
+    "skin-839dad0ad981",
+    "skin-ea3ddb4cfeb4",
+    "skin-d19d99db7c52",
+    "skin-a2c3eeca40db",
+    "skin-e62659639aba",
+    "skin-c367da09c5bb",
+    "skin-13af73ca7ca5",
+    "skin-ef297140e6ea",
+    "skin-69c57b0e17a5",
+    "skin-460926660df2",
+    "skin-4a49656a91ca",
+    "skin-3932487f357b",
+    "skin-28b915dc6c9c",
+    "skin-b0c24d905a01",
+    "skin-d866f26d9587",
+    "skin-4c83a4940ef3",
+    "skin-3d5660b8b090"
+   ]
+  },
+  {
+   "name": "Prisma Case",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XsnXwtmkJjSU91dh8bj35VTqVBP4io_fr3AV6aD8O6BpdKKQVmPEwr1zs-c8Tnngl09w52zTmY2sc3jBag8jXpohE_lK7Ede7E2Kfw",
+   "price": 100,
+   "skins": [
+    "skin-c5816102c9ab",
+    "skin-9a7c16468868",
+    "skin-1541026f04e1",
+    "skin-ea691ab700a8",
+    "skin-5c41a3861543",
+    "skin-a29bf383aa7d",
+    "skin-b37ee36feb54",
+    "skin-d6cf8565026b",
+    "skin-c310cd1bc7ff",
+    "skin-2a0e222beb58",
+    "skin-640691d10403",
+    "skin-b720620ba156",
+    "skin-1a044032aec8",
+    "skin-4280698b46ee",
+    "skin-ee5f48068381",
+    "skin-f971772d4996",
+    "skin-8c5b9b7ce9f2"
+   ]
+  }
+ ],
+ "skins": [
+  {
+   "id": "skin-bc677a3996cc",
+   "name": "Tec-9 | Isaac",
+   "rarity": "rarity_rare_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLlm5W5wiFO0Oara_1SIeOaB2qf19F6ueZhW2frlEpz6zyAy477dXrEagFxDcclRO4C5EK8wIa1Nem3s1TdiotNzCn5kGoXuYgN6W8t",
+   "min_float": 0,
+   "max_float": 1
+  },
+  {
+   "id": "skin-6d203a8fcdb1",
+   "name": "SSG 08 | Slashed",
+   "rarity": "rarity_rare_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLijZGwpR1Y-s29e6M9eM-aA2qf0_p3vN5kSi26gBBp62XXyon_eHKXagYoC5ZwFLQNska7lIfiY-rgtVCN2IxExX_9h34buDErvbiGjEi-fQ",
+   "min_float": 0.15,
+   "max_float": 0.8
+  },
+  {
+   "id": "skin-011747eede4b",
+   "name": "Dual Berettas | Retribution",
+   "rarity": "rarity_rare_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnl8StP6ryvOqJpJqjACjbBkb93srg-Fn7ilBhysWXSyNarJSqUZlIpCMclTbMCrFDmxYRwJ9Kk",
+   "min_float": 0,
+   "max_float": 0.45
+  },
+  {
+   "id": "skin-b0c960e25016",
+   "name": "Galil AR | Kami",
+   "rarity": "rarity_rare_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL2n5rp8SNJ0Pq3V6NsLPmfMWyRzOdJvOhuRz39wkl142uEwtqsJ3OealV1DZYmFuNZ4xTtx4HnZuPl4gaLjdpNnHqt3TQJsHjaThnzjg",
+   "min_float": 0,
+   "max_float": 0.6
+  },
+  {
+   "id": "skin-c98d2c843b36",
+   "name": "P90 | Desert Warfare",
+   "rarity": "rarity_rare_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnwpHIVvfOsPfI9dqDCWDDGkb4j5OU_Fy_kx0l1tj6DnoqseC2TP1cpAsF2QPlK7EcMYXqtDg",
+   "min_float": 0,
+   "max_float": 0.5
+  },
+  {
+   "id": "skin-84742fb07c2b",
+   "name": "CZ75-Auto | Poison Dart",
+   "rarity": "rarity_rare_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnj53UO7ryvaac0dKiVW2XBlrwmsuA6GH3hkE9062qEz9aoeCmVawchW8dwEe4MrFDmxWPDR_Ga",
+   "min_float": 0,
+   "max_float": 0.7
+  },
+  {
+   "id": "skin-6649e8ef90bf",
+   "name": "CZ75-Auto | Twist",
+   "rarity": "rarity_rare_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLyhMG1_B1a4s2pcbZsNPWsAm6Xyfo45bY7TXzjxk5w42XXn93_cnLFOFN1C5t0ROANsBLtx9ziNu6x4FHejpUFk3uH-TvaLw",
+   "min_float": 0,
+   "max_float": 1
+  },
+  {
+   "id": "skin-b0409a64842e",
+   "name": "P90 | Module",
+   "rarity": "rarity_rare_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLhx8bf_Cxk_f23aahvLPWWClicyOl-pK8_Sn_rwE1x5z6AyY6qeXmRb1cgWMNwR7Ff4Bm_m9y0Przq4A3b348Q02yg2QQMyM9M",
+   "min_float": 0,
+   "max_float": 0.35
+  },
+  {
+   "id": "skin-47c5420fd212",
+   "name": "P2000 | Pulse",
+   "rarity": "rarity_rare_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL5lYayrXIL0PG7V7Q_cKDDMXeFzf1zj-1gSCGn201wsTnRm9egcS7DaABxDZckQe5Ys0S6xtKxZO-wsQDbi9lMxSv-jS5XrnE8fJdFk9o",
+   "min_float": 0,
+   "max_float": 0.6
+  },
+  {
+   "id": "skin-421b4d58b3c3",
+   "name": "AUG | Torque",
+   "rarity": "rarity_mythical_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLwi5Hf_jdk7uepV7R_L_eBC3SDyPhJvOhuRz39lxhxsm_WzN37Iy7CbAcmC8B2QuYPtRCwx9HvNr-xtQPaj95EmS__3TQJsHjrLu4xbg",
+   "min_float": 0,
+   "max_float": 0.5
+  },
+  {
+   "id": "skin-7cfcd56e9168",
+   "name": "PP-Bizon | Antique",
+   "rarity": "rarity_mythical_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLzl4zv8x1Y-s2sYb5iLs-SAHOZ0Ptzj-1gSCGn20sj4DnTyN2pdyjFOg4oXJV5Qu5c5xS9w4bjNL7q7gHd2INGxCn_iyxXrnE83Efvvd0",
+   "min_float": 0,
+   "max_float": 0.5
+  },
+  {
+   "id": "skin-c928639d51cb",
+   "name": "MAC-10 | Curse",
+   "rarity": "rarity_mythical_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnt_CEKv7yrP_I4dvXLWDLBk7Yis7ZqTHHrwktwtz7Sz4mtdHyUPAQpDpV5F-cLrFDmxRuwA7jf",
+   "min_float": 0,
+   "max_float": 0.5
+  },
+  {
+   "id": "skin-817e4764952b",
+   "name": "XM1014 | Heaven Guard",
+   "rarity": "rarity_mythical_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLpk8ewrHZk7OeRcKk8cKHHMW-VwPhzvt5uWiihkSIrujqNjsH7cHLFPwd1WZsiFrJYuhC4lNTuNu3n5ASN3YxEniStjSMa6H45675UT-N7rZnbv6eE",
+   "min_float": 0.03,
+   "max_float": 0.5
+  },
+  {
+   "id": "skin-148586fd3375",
+   "name": "MAC-10 | Tatter",
+   "rarity": "rarity_mythical_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8n5WxrR1Y-s2lZ7Z4MOSsAm6Xyfo4tbY7H3q1xRt152TWyt6tc3ifaVcmDppxReVethawlYHmNO6ztQbciJUFk3uxmhdQIQ",
+   "min_float": 0,
+   "max_float": 0.5
+  },
+  {
+   "id": "skin-196d87753c91",
+   "name": "M4A1-S | Atomic Alloy",
+   "rarity": "rarity_legendary_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8ypexwjFS4_ega6F_H_GeMWrEwL87o95oQyW8jCIooTyLnYrGLSLANkI-D5d2FrENtRG7wNDvZe-3slfci9pFmHj8jSof6yZjtugEB6QtrKTXhxaBb-PhITXxPA",
+   "min_float": 0,
+   "max_float": 0.9
+  },
+  {
+   "id": "skin-bc6a17b8b04c",
+   "name": "SCAR-20 | Cyrex",
+   "rarity": "rarity_legendary_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLinZfyr3Jk7OeRe6dsMs-QF3WV2dF6ueZhW2fgzUR_52nUzYugICnCPVImApYkRO8NtkLtw4a1Nbzn7lSN2oITnCr5kGoXuXXxbesR",
+   "min_float": 0,
+   "max_float": 0.5
+  },
+  {
+   "id": "skin-a503e5d8d0b7",
+   "name": "USP-S | Orion",
+   "rarity": "rarity_legendary_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKn17jJk_PuibapuJeLdWGLFwL8i4eVsFiqxxUt34jmHnoysJ3qVOAYgCJZwQrRb5EPul4XlYvSiuVIHgy4Xvg",
+   "min_float": 0,
+   "max_float": 0.5
+  },
+  {
+   "id": "skin-6fcc0ba62469",
+   "name": "USP-S | Caiman",
+   "rarity": "rarity_legendary_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLkjYbf7itX6vytbbZSI-WsBWaZzO94j-1gSCGn20t-4WyBn4mocC6XbVN0CMB2RLYMsUG5x9DgN-20tQSNiI1GzS2q3XtXrnE8NAiGp64",
+   "min_float": 0,
+   "max_float": 0.4
+  },
+  {
+   "id": "skin-b14c9f234bc5",
+   "name": "AK-47 | Vulcan",
+   "rarity": "rarity_ancient_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLwlcK3wiFO0POlPPNSMuWRDGKC_uJ_t-l9AXCxxEh14zjTztivci2ePQZ2W8NzTecD4BKwloLiYeqxtAOIj9gUyyngznQeF7I6QE8",
+   "min_float": 0,
+   "max_float": 0.9
+  },
+  {
+   "id": "skin-e3516262b49a",
+   "name": "M4A4 | Desert-Strike",
+   "rarity": "rarity_ancient_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8ypexwiFO0OanfKVjM-ScHGqvzedxuPUnHnjnxEsi4WTTntqucnuUaA92CZR2E-IDtRa-mobnYeLksQbXg4hDyTK-0H1Bbz5yqg",
+   "min_float": 0,
+   "max_float": 0.7
+  },
+  {
+   "id": "skin-ea4e27f0cd16",
+   "name": "AK-47 | Elite Build",
+   "rarity": "rarity_rare_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLwlcK3wiFO0POlPPNSLfGAGmKC2NF6ueZhW2e2wh9y5GjTztirdSqfP1dyCpclR7FZ5xe9wNbhZei25FGPjokXxC2vkGoXuQLr5jvs",
+   "min_float": 0,
+   "max_float": 1
+  },
+  {
+   "id": "skin-0789e14af0b1",
+   "name": "MP7 | Armor Core",
+   "rarity": "rarity_rare_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8jsHf_DNk4uL5V7FhNOKSA2iUxPx4j-1gSCGn2xhw6zjSzYysICiUOgV0Cpd1TORe5BW9w922Nrux5gKLitpGz3irhnlXrnE866qixJk",
+   "min_float": 0,
+   "max_float": 0.5
+  },
+  {
+   "id": "skin-7698ea25d00a",
+   "name": "Desert Eagle | Bronze Deco",
+   "rarity": "rarity_rare_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL1m5fn8Sdk7v-RarZiLuqWMXSAwPx9vORWQyC0nQlp4zzdydqtJXuTOgZzW5F4QbNZ4UK7l9e1N-Pq5AeNj9hHmH783S9J6zErvbgcMfnnyA",
+   "min_float": 0,
+   "max_float": 0.46
+  },
+  {
+   "id": "skin-4b8851edb204",
+   "name": "P250 | Valence",
+   "rarity": "rarity_rare_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLhzMOwwiNK0OL8PfRSI_-dGmiF09F6ueZhW2fiwUx14zmDnNagcC-WagUkApslQuBYsUW_ktexPry3swPfiogTyyiqkGoXuQius2mt",
+   "min_float": 0,
+   "max_float": 0.8
+  },
+  {
+   "id": "skin-fd5699e808a0",
+   "name": "Negev | Man-o'-war",
+   "rarity": "rarity_rare_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL_m5Hl6x1a4s2gbaNoNs-UAmiC2NF6ueZhW2fikBh352vQyt-sI3mRbQ8lDJpxTLVfuxC5k4W0MLvm5VfeithHnij5kGoXuSdORNFb",
+   "min_float": 0.1,
+   "max_float": 0.2
+  },
+  {
+   "id": "skin-628ddc6f56d0",
+   "name": "Sawed-Off | Origami",
+   "rarity": "rarity_rare_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLin4Hl-S1d6c2tfZt-IeeWCmiWx9F5ouhuTiS6qhEutDWR1IutIyqSalBzWZQjQbUD4UaxltCzNuLgslTejYwTxSn2jCIc5n1jtbscEf1yxjZ09aw",
+   "min_float": 0,
+   "max_float": 0.55
+  },
+  {
+   "id": "skin-c97e27944006",
+   "name": "AWP | Worm God",
+   "rarity": "rarity_mythical_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLwiYbf_DNk7uW-V7B6Kf6WMWuZxuZi_uRoGH3iw0wh4j7cnt6ucSqSZwUkCMB5TLIPsES_kNbuYeOwtgXai4NbjXKpZ4kj0o0",
+   "min_float": 0,
+   "max_float": 0.45
+  },
+  {
+   "id": "skin-fadb57cf0d51",
+   "name": "MAG-7 | Heat",
+   "rarity": "rarity_mythical_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8n5G3wiFO0P-vb_NSMvWXBmiE_uJ_t-l9AX7nzBsk623dm46odHmUbFd1Dcd2RbINtBXtkNDjMbzj5AGKjt4UyijgznQe8JftFTE",
+   "min_float": 0,
+   "max_float": 1
+  },
+  {
+   "id": "skin-e2e874d00715",
+   "name": "CZ75-Auto | Pole Position",
+   "rarity": "rarity_mythical_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLyhMG1_B1Y-s2tcvM4H-CBC2SZ0ud5vt5lRi67gVNy4mTdzdmgc33COg90DcB2FuMPtxLpldSxZeLn4w2K34NCzXj9hnsY8G81tCL36RK-",
+   "min_float": 0,
+   "max_float": 0.7
+  },
+  {
+   "id": "skin-162f16955942",
+   "name": "UMP-45 | Grand Prix",
+   "rarity": "rarity_mythical_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLkk4a0qB1a4s27ZbRSMvGQC3WvzOtyufRkASjjxU1x42nVyo2rdnKQbA9xX5ohRrYMtBntmtW1N7zj5lDZgthFzC3gznQezoUeLLY",
+   "min_float": 0.25,
+   "max_float": 0.35
+  },
+  {
+   "id": "skin-b2a5203033ee",
+   "name": "Five-SeveN | Monkey Business",
+   "rarity": "rarity_legendary_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL3l4Dl7idN6vyRa7FSJvmFC3SV1-t4j-NoQSi9lCIrujqNjsGheXmXPQcoWMFzEO5ZtUOwkILjY7yzsg3ci91DySiohn4buCht4eYET-N7rZVO80Su",
+   "min_float": 0.1,
+   "max_float": 0.9
+  },
+  {
+   "id": "skin-5224ccf55371",
+   "name": "Galil AR | Eco",
+   "rarity": "rarity_legendary_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL2n5rp8SNJ0PG7V6NsLPmfMWKTztF6ueZhW2exwExw4WrcyImrcHmTbQAlWcQkQudYt0O5lNfgP-nh5AOL3otAziz7kGoXua-HTb4P",
+   "min_float": 0.1,
+   "max_float": 0.85
+  },
+  {
+   "id": "skin-4fa9c490db80",
+   "name": "FAMAS | Djinn",
+   "rarity": "rarity_legendary_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL3n5vh7h1a_s2oaalsM8-ZB2me_uJ_t-l9AXzhwxt-5TiAzdmgd3yeaQ50DZRxEe5b4BXrm4HkPr7kslfcg9pCznjgznQepOOy8CM",
+   "min_float": 0,
+   "max_float": 1
+  },
+  {
+   "id": "skin-7b1351c2adba",
+   "name": "M4A1-S | Hyper Beast",
+   "rarity": "rarity_ancient_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8ypexwjFS4_ega6F_H_OGMWrEwL9JuPh5SjuMlxgmoCm6lob-KT-JbwF1WZEjR-YJskK9k9XiYePltAeNjYlAxSn5j34dvCZstb4LB6Ut-7qX0V8Xkv5_2A",
+   "min_float": 0,
+   "max_float": 1
+  },
+  {
+   "id": "skin-bb6ba9602776",
+   "name": "MAC-10 | Neon Rider",
+   "rarity": "rarity_ancient_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8n5WxrR1Y-s2jaac8cM-dC2ie0-dytfNWQyC0nQlp5DzTntmgdC7COABxX5NxQrUOtUS5w4LgMu6zsVCK2IJCmyisjitM6DErvbicsEA0SQ",
+   "min_float": 0,
+   "max_float": 0.45
+  },
+  {
+   "id": "skin-839dad0ad981",
+   "name": "R8 Revolver | Crimson Web",
+   "rarity": "rarity_rare_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLjm4Dv8TRe_c2mcZt6JfKAMWuZxuZi_rdrHny2wkR_sDuHw4muJXuWOwZyAsdzTeNcu0S4ktfkP77htAOPiYlbjXKp8jg9HbM",
+   "min_float": 0.06,
+   "max_float": 0.8
+  },
+  {
+   "id": "skin-ea3ddb4cfeb4",
+   "name": "AUG | Ricochet",
+   "rarity": "rarity_rare_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLwi5Hf_C9k7uepV654LfKfC1icyOl-pK9tHi-wxUp0sTyGw4z8dXqfb1IlWcd1QedctUbpwNHgPrnjtFeLj4tD02yg2euRXb9L",
+   "min_float": 0,
+   "max_float": 0.8
+  },
+  {
+   "id": "skin-d19d99db7c52",
+   "name": "Desert Eagle | Corinthian",
+   "rarity": "rarity_rare_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL1m5fn8Sdk7uORbKFsJ_yWMWSf0-d4pOlgTieMmRQguynLzNz4Iy2ebgUmDZB4QeEDskO5ktWzMrjm7wPd2IlGmCr_3XxBuClr4PFCD_To4zX47g",
+   "min_float": 0,
+   "max_float": 0.44
+  },
+  {
+   "id": "skin-a2c3eeca40db",
+   "name": "P2000 | Imperial",
+   "rarity": "rarity_rare_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL5lYayrXIL0POjV7Q_cKDDMW6d0etkueBlcDu2kSIrujqNjsGrJH6XPQ9xAsZ5FLIDtBG5mtfhY7nl4gGNiosTzH792ntOvC1stbsDT-N7ra_mVv2F",
+   "min_float": 0,
+   "max_float": 0.2
+  },
+  {
+   "id": "skin-e62659639aba",
+   "name": "Sawed-Off | Yorick",
+   "rarity": "rarity_rare_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLin4Hl-S1d6c2pe5t-IeeWCmiWx9F4teJ7QCSymx4ioQKJk4jxNWWTaQEnXsR1QOUItBC9mtTgMenntVCKjY4RyS79jy8b6iw5susEBfYs5OSJ2HUgdoR1",
+   "min_float": 0,
+   "max_float": 1
+  },
+  {
+   "id": "skin-c367da09c5bb",
+   "name": "SCAR-20 | Outbreak",
+   "rarity": "rarity_rare_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLinZfyr3Jk5-uRe6dsMqLDMW2Fz-l6tfNWQyC0nQlp5znXy9-vcXiWaA5yCMZ0ROUL5hXuwNfmY-_lsgSP2d0UzH-v3CtB7jErvbiWj5__Rg",
+   "min_float": 0,
+   "max_float": 0.5
+  },
+  {
+   "id": "skin-13af73ca7ca5",
+   "name": "PP-Bizon | Fuel Rod",
+   "rarity": "rarity_mythical_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLzl4zv8x1Y-s2sYb5iLs-dAX-Zzvtlj-1gSCGn2xkhsW7Rzt3_c3OePQElW8R3F7IJt0Lrl9e0ZO_r4wHZiINEyij323lXrnE8VjeQjNs",
+   "min_float": 0,
+   "max_float": 1
+  },
+  {
+   "id": "skin-ef297140e6ea",
+   "name": "Five-SeveN | Retrobution",
+   "rarity": "rarity_mythical_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL3l4Dl7idN6vyRa7FSJvmFC3SV1-t4j_NsWzu8lwgzujKLpYPwJiPTcAByWJB4TOULsxS5wNfmPuzjtQHciYpHmCuqhypJvSlr4LsGBaEmr_bJz1aWW-JyGhc",
+   "min_float": 0,
+   "max_float": 1
+  },
+  {
+   "id": "skin-69c57b0e17a5",
+   "name": "Negev | Power Loader",
+   "rarity": "rarity_mythical_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL_m5Hl6x1Y-s2gbaNoNs-aA3eRwvpJvOhuRz39lE914j-HyYmscHLBZ1J1X5NyEbYI5Be8k4DmYuzh4AGIgo0QzSqs3TQJsHgPf9N5RQ",
+   "min_float": 0,
+   "max_float": 1
+  },
+  {
+   "id": "skin-460926660df2",
+   "name": "SG 553 | Tiger Moth",
+   "rarity": "rarity_mythical_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLimcO1qx1c_M29b_E4c8-HB2CV09F7v_VhcCW6khUz_TnWn9n7cyqRPQ52DpN3QLEPshjrw9zlY-jjs1bWioMQxSj8hyxJu3l1o7FVwqXqqnE",
+   "min_float": 0,
+   "max_float": 1
+  },
+  {
+   "id": "skin-4a49656a91ca",
+   "name": "Tec-9 | Avalanche",
+   "rarity": "rarity_mythical_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLlm5W5wiFO0Oara_1SIeaSAmaewuZzj-1gSCGn20Qi4m_cwtv8dy7Fbg8kXptyRuMJtEG4kdDuN-jq71ffj90QxCT22HxXrnE83F92lc4",
+   "min_float": 0,
+   "max_float": 1
+  },
+  {
+   "id": "skin-3932487f357b",
+   "name": "XM1014 | Teclu Burner",
+   "rarity": "rarity_mythical_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLpk8ewrHZk7uORcKk8cKHHMW-f1dFkv-VWQyC0nQlptj_Tn9v4J3zEbVIjCZEkELRcska_x4DmNumz4QHWjYtNxSSqjSNAuzErvbjrIzaCAA",
+   "min_float": 0,
+   "max_float": 0.65
+  },
+  {
+   "id": "skin-28b915dc6c9c",
+   "name": "AK-47 | Point Disarray",
+   "rarity": "rarity_legendary_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLwlcK3wiFO0POlPPNSMP-aAHOvxedlsfN7TjCMmRQguynLnIz_dXnEbFcoDsNzQLMN40S7mte0Zuzl5gbY34JEnnr52ChA7ytisPFCD_Rw7udDlA",
+   "min_float": 0,
+   "max_float": 0.67
+  },
+  {
+   "id": "skin-b0c24d905a01",
+   "name": "G3SG1 | The Executioner",
+   "rarity": "rarity_legendary_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL2zYXnrB1Y-s2pO7dqcc-WFmKT1Pp_v-9sXRa_nBovp3PXmdyseC3DOFN1DJZ1TeIOtEKxmoG2PuKwsgOPgoxGzyr7jnhPvXlq_a9cBnGZIRC4",
+   "min_float": 0.14,
+   "max_float": 0.85
+  },
+  {
+   "id": "skin-d866f26d9587",
+   "name": "P90 | Shapewood",
+   "rarity": "rarity_legendary_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLhx8bf_jdk_6v-V7dlIeCWGWifxdF6ueZhW2fglEtz6zjWyo2uJXKeaAF1ApZ2F7YN5BC_w9TjYbzg5VCNg9pEnHiskGoXuQsJgcHb",
+   "min_float": 0,
+   "max_float": 1
+  },
+  {
+   "id": "skin-4c83a4940ef3",
+   "name": "M4A4 | Royal Paladin",
+   "rarity": "rarity_ancient_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8ypexwiVI0P_6afBSMv-KD2uv0v9jufNscCW6khUz_W-Az9b8d3LFZ1AnDMAjR-4CsBO9xofhNL_q4wLWjogUzyn43SxM73x1o7FVNN3FvCs",
+   "min_float": 0,
+   "max_float": 0.8
+  },
+  {
+   "id": "skin-3d5660b8b090",
+   "name": "R8 Revolver | Fade",
+   "rarity": "rarity_ancient_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLjm4Dv8TRe_c2vaZtrIfSWMXWV1-F6puR7cCW6khUz_W2EnIuheSiVZgIgX8F3Ee9YthLuw9LjMePqswCL34kQzHj6iypPu351o7FV6jjqgC8",
+   "min_float": 0,
+   "max_float": 0.4
+  },
+  {
+   "id": "skin-c5816102c9ab",
+   "name": "FAMAS | Crypsis",
+   "rarity": "rarity_rare_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL3n5vh7h1I_82oaalsM8-UBmiD1dF_vvJsTD2gqhEutDWR1IyudXKSOFIkC8QhTbEK5kK8x9C2NOK3slbYg48Rnyr_hixI6i85sr0cEf1yzP52oWI",
+   "min_float": 0,
+   "max_float": 0.55
+  },
+  {
+   "id": "skin-9a7c16468868",
+   "name": "AK-47 | Uncharted",
+   "rarity": "rarity_rare_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLwlcK3wiFO0POlPPNSIeqHC2SvzedxuPUnFnCwwBl_5D_Syon8dnyUaQUlD5oiQ7ECuxW7l920ZL-w4AfX2IlByTK-0H0PRM7cOA",
+   "min_float": 0,
+   "max_float": 0.75
+  },
+  {
+   "id": "skin-1541026f04e1",
+   "name": "MAC-10 | Whitefish",
+   "rarity": "rarity_rare_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8n5WxrR1c_M2jaac8cM-VB3SY_ux3ufVWQyC0nQlp52jdwt-vdnyeP1QoDZQlTeQNtRO-w4e1ZeKzswCM2INHynn3hixPujErvbg9KuBZSA",
+   "min_float": 0,
+   "max_float": 1
+  },
+  {
+   "id": "skin-ea691ab700a8",
+   "name": "Galil AR | Akoben",
+   "rarity": "rarity_rare_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL2n5rp8SNJ0OG-V6NsLPmfMWabzuxzvt5lRi67gVMlt2_dzd6qcH2TOgN0CpIlE7Ve5hbukdW0MrixslPW2IgQzyv8jypI8G81tJzCUipD",
+   "min_float": 0,
+   "max_float": 0.75
+  },
+  {
+   "id": "skin-5c41a3861543",
+   "name": "MP7 | Mischief",
+   "rarity": "rarity_rare_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8jsHf_jdk4uL5V7ZsI_uWGmKV09F6ueZhW2fnlE5x52Tdz4mscn6XOAFzXppyQ7RZtkTpwNzuMejn5wyPjYoTy336kGoXuS747mDn",
+   "min_float": 0.1,
+   "max_float": 1
+  },
+  {
+   "id": "skin-a29bf383aa7d",
+   "name": "P250 | Verdigris",
+   "rarity": "rarity_rare_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLhzMOwwiNK0OL8PfRSNvWBCm6X0-dlj-1gSCGn20R35DnRn42udXiVOg91CpZ4ReACthC4wYexZuuw5VeIjdkUzyqq3CNXrnE8Cr6wnKw",
+   "min_float": 0,
+   "max_float": 0.7
+  },
+  {
+   "id": "skin-b37ee36feb54",
+   "name": "P90 | Off World",
+   "rarity": "rarity_rare_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLhx8bf_jdk_6v-V6trJuecHGuU_uJ_t-l9AS_jwBwisG3SzN-rcX-SbA4lCsR4R-EDuhi6wIG1NuzjtFba2N8WxS3gznQePPXjzOg",
+   "min_float": 0,
+   "max_float": 0.75
+  },
+  {
+   "id": "skin-d6cf8565026b",
+   "name": "AWP | Atheris",
+   "rarity": "rarity_mythical_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLwiYbf_jdk7uW-V7JkMPWBMWuZxuZi_rZsS3zgzU8isW3dnIr6eHKfPVAhDpojEe9YsUW4xta1Nuzm5FDci4NbjXKpmWVQppo",
+   "min_float": 0,
+   "max_float": 1
+  },
+  {
+   "id": "skin-c310cd1bc7ff",
+   "name": "Tec-9 | Bamboozle",
+   "rarity": "rarity_mythical_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLlm5W5wiFO0Oara_1SIvGeDGif_uJ_t-l9ASi2xxhzsT6Emdr6JCqTPQJyXpR4RLMI5hm_wNHjZe3r5Qzci41Dy3jgznQeOWU5G3g",
+   "min_float": 0,
+   "max_float": 0.8
+  },
+  {
+   "id": "skin-2a0e222beb58",
+   "name": "Desert Eagle | Light Rail",
+   "rarity": "rarity_mythical_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL1m5fn8Sdk6OGRbKFsJ_yWMWKIztF6ueZhW2fhlhlw6m-GnNyvIiiXOwQoDMR2QbZe5hi5k9KxN-vhtFbciN1FnyqskGoXuU4JtHUo",
+   "min_float": 0,
+   "max_float": 0.9
+  },
+  {
+   "id": "skin-640691d10403",
+   "name": "MP5-SD | Gauss",
+   "rarity": "rarity_mythical_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8jsPz-R1c_M2jePF-JM-SHXOCzuN3pOhqcCW6khUz_WzTzYmhJXuSaANzW8EkQ7JZ4BjsxtSzYezr5lbfidlEzC-vjnxK7ih1o7FVYPX5q0o",
+   "min_float": 0,
+   "max_float": 1
+  },
+  {
+   "id": "skin-b720620ba156",
+   "name": "UMP-45 | Moonrise",
+   "rarity": "rarity_mythical_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLkk4a0qB1a7s27ZbQ5dc-eAWie0-dltd56WiegkAkYvzSCkpu3IHzGbQFxCMByE7MJsxC6w9ayN-3ntgPf3YtGmX6tiyxM6X1pt-cCUr1lpPMz7bPahA",
+   "min_float": 0,
+   "max_float": 0.4
+  },
+  {
+   "id": "skin-1a044032aec8",
+   "name": "R8 Revolver | Skull Crusher",
+   "rarity": "rarity_legendary_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLjm4Dv8TRe_c2tfZt_JeacAnGV09F5oPF7Sjqgmg8YvjiBk5r0b3uSaQUiCsZ2E-EI5EKwldW2NOzqslffgopHxHj-jHxLvH4_tbwHWaQ7uvqApie1xz8",
+   "min_float": 0.25,
+   "max_float": 0.8
+  },
+  {
+   "id": "skin-4280698b46ee",
+   "name": "AUG | Momentum",
+   "rarity": "rarity_legendary_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLwi5Hf_jdk7uepV6liLfWdGnKd_uJ_t-l9ASi2zUp042SBno6sICrFbFMnCZR5EedftkPqk9ayMr_j71fXjo8XmXrgznQeFjVtTWM",
+   "min_float": 0.05,
+   "max_float": 1
+  },
+  {
+   "id": "skin-ee5f48068381",
+   "name": "XM1014 | Incinegator",
+   "rarity": "rarity_legendary_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyLpk8ewrHZk7OeRcKk8cKHHMW6ewud4tfNoWyahqhEutDWR1NuuJXqWO1d0CsdyE-9ctxPpkYDmYr6zsgKLgt5NnC33in9B7idi4u8cEf1ypt9Mlvk",
+   "min_float": 0.14,
+   "max_float": 0.65
+  },
+  {
+   "id": "skin-f971772d4996",
+   "name": "Five-SeveN | Angry Mob",
+   "rarity": "rarity_ancient_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL3l4Dl7idN6vyRa7FSJvmFC1iDxPhzvt5oQS6hjCIrujqNjsH_cy2RagUjA8BwR-de5hjskNflNrnqsgaLiYgRyyythitM7Hw-sekKT-N7rXEld5dH",
+   "min_float": 0,
+   "max_float": 0.7
+  },
+  {
+   "id": "skin-8c5b9b7ce9f2",
+   "name": "M4A4 | The Emperor",
+   "rarity": "rarity_ancient_weapon",
+   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIGz3UqlXOLrxM-vMGmW8VNxu5Dx60noTyL8ypexwiVI0P_6afBSJf2DC3Wf09F6ueZhW2exwBh_6m3dnt36InjDPQ4oXJt1TbJeshW_mtfjN-vrsgaKiokWy333kGoXuRj4z9Nd",
+   "min_float": 0,
+   "max_float": 0.8
+  }
+ ]
+}

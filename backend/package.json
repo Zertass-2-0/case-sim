@@ -1,0 +1,16 @@
+{
+  "name": "case-sim-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Unofficial fan-made CS case opening simulator (virtual currency only)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.12.0"
+  }
+}
