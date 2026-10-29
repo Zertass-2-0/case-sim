@@ -40,7 +40,9 @@ browser  --HTTP-->  backend (Node/Express, :3000)  --SQL-->  db (PostgreSQL, int
 | `backend/Dockerfile` | custom image for the backend (node:20-alpine, non-root user) |
 | `backend/sql/schema.sql` | tables, constraints, indexes (idempotent, applied on start) |
 | `backend/data/seed.json` | rarities, 4 cases, 69 skins (generated once by `scripts/build_seed.py`) |
-| `backend/src/` | `server.js` (app), `auth.js`, `game.js` (cases/inventory/contracts), `admin.js`, `pricing.js`, `db.js` |
+| `backend/src/` | `server.js` (app), `auth.js`, `skins.js` (CRUD resource), `game.js` (cases/inventory/contracts), `admin.js`, `pricing.js`, `db.js` |
+| `docs/API.md` | API documentation for every endpoint |
+| `postman/` | Postman collection + environment template (no secrets) |
 | `backend/public/` | single-page frontend, no framework |
 
 Config and secrets come from `.env` (not in Git). See `.env.example`.
@@ -52,15 +54,31 @@ Money-changing operations (open case, sell, contract, admin grants) run in a sin
 
 ### API (all under `/api`, JSON; everything except `/auth/*` and `/health` needs `Authorization: Bearer <token>`)
 
+Full reference with request/response examples: **[docs/API.md](docs/API.md)**. Postman: see below.
+
 | Method | Path | |
 |---|---|---|
+| GET | `/health` | liveness + database check, no auth |
 | POST | `/auth/register`, `/auth/login` | returns token |
+| **GET** | **`/skins`** | **list** (filters `rarity`, `q`, paging `limit`/`offset`) |
+| **GET** | **`/skins/:id`** | **get by id** |
+| **POST** | **`/skins`** | **create** (admin) |
+| **PUT** | **`/skins/:id`** | **update** (admin) |
+| **DELETE** | **`/skins/:id`** | **delete** (admin; 409 if players own it) |
 | GET | `/me`, `/cases`, `/cases/:id`, `/inventory`, `/transactions`, `/leaderboard` | read |
 | POST | `/cases/:id/open` | open a case (uses an owned case first, else pays) |
 | POST | `/inventory/sell` | `{ids:[...]}` |
 | POST | `/contracts/preview`, `/contracts` | `{ids:[10 ids]}` |
 | POST | `/admin/money`, `/admin/case`, `/admin/skin` | admin only |
 | GET | `/admin/users`, `/admin/skins` | admin only |
+
+### Postman
+
+1. Import `postman/CaseSim.postman_collection.json` and `postman/CaseSim.postman_environment.json`.
+2. Select the environment "CaseSim local" and set `adminPassword` to `ADMIN_PASSWORD` from your `.env` (the repository only contains an empty value).
+3. Open the collection and press **Run**: all 47 requests run in order, every one has tests (status codes, response fields, error cases). Folder **2. Skins (CRUD)** is the main REST resource; requests can also be run one by one after **1. Auth**.
+
+Each run registers a new throw-away player (`pm_...`). The same collection can be run from the console with Newman: `docker run --rm -v "$PWD/postman:/c" postman/newman:alpine run /c/CaseSim.postman_collection.json -e <env file>`.
 
 ## Regenerating the seed (optional)
 

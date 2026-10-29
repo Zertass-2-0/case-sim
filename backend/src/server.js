@@ -5,6 +5,7 @@ const db = require("./db");
 const auth = require("./auth");
 const game = require("./game");
 const admin = require("./admin");
+const skins = require("./skins");
 const { wrap } = require("./util");
 
 const app = express();
@@ -24,6 +25,7 @@ app.get(
 app.use("/api/auth", auth.router);
 
 app.get("/api/me", auth.requireAuth, (req, res) => res.json(req.user));
+app.use("/api/skins", auth.requireAuth, skins.router);
 app.use("/api", auth.requireAuth, game.router);
 app.use("/api/admin", auth.requireAuth, auth.requireAdmin, admin.router);
 
@@ -33,7 +35,8 @@ app.use("/api", (_req, res) => res.status(404).json({ error: "Not found" }));
 app.use((err, _req, res, _next) => {
   if (err.status) return res.status(err.status).json({ error: err.message });
   if (err.code === "23505") return res.status(409).json({ error: "That nick is already taken" });
-  if (err.code === "23514") return res.status(400).json({ error: "Operation not allowed (balance can't go below 0)" });
+  if (err.code === "23503") return res.status(409).json({ error: "Can't delete: other records (e.g. players' items) still use this row" });
+  if (err.code === "23514")return res.status(400).json({ error: "Operation not allowed (balance can't go below 0)" });
   console.error(err);
   res.status(500).json({ error: "Internal server error" });
 });
